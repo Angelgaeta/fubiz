@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Futura;
+}
+
+.wrapper{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.navigation{
+    background-color: black;
+    text-align: center;
+}
+.liens, .liens:link{
+    font-size: 14px;
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+    margin: 0 17px;
+}
+
+.hero{
+    padding-top: 35px;
+    padding-bottom: 215px;
+    background-image: url(images/background.jpg);
+    color: white;
+    text-align: center;
+    box-shadow: inset 0 74px 150px rgba(0,0,0,0.8);;
+}
+
+.logo{
+    margin-bottom: 245px;
+}
+.categorie{
+    opacity: 0.6;
+}
+.titre{
+    font-size: 100px;
+    line-height: 110px;
+}
+
+
+.sectionarticles{
+    position: relative;
+    top: -100px;
+}
+.sectionarticles::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.highlights{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.articles{
+    width: 325px;
+    margin-right: 20px;
+    text-align: center;
+    float: left;
+}
+.articletitre{
+    font-size: 24px;
+}
+.photography{color: #ce6699;}
+.graphic{color: #b0c963;}
+
+.dernierarticle{
+    margin-right: 0;
+}
+
+.footer{
+    padding: 50px 0;
+    background-color: black;
+    text-align: center;
+}
