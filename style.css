@@ -46,6 +46,7 @@
 .sectionarticles{
     position: relative;
     top: -100px;
+    left: 110px;
 }
 .sectionarticles::after{
     content: '';
